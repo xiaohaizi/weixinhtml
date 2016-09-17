@@ -67,7 +67,7 @@ function c(t){
 return t;
 }
 function l(){
-var t="/misc/appmsganalysis?action=detail&msgid=%s&publish_date=%s&type=%s";
+var t="/misc/appmsganalysis-action=detail&msgid=%s&publish_date=%s&type=%s";
 return t=wx.url(t.sprintf(w.msgid,w.publish_date,"int"));
 }
 function o(){

@@ -33,7 +33,7 @@ url:"/cgi-bin/settingpage?t=setting/function&action=function"
 mass:[{
 id:"send",
 name:"新建群发消息",
-url:"/cgi-bin/masssendpage?t=mass/send"
+url:"/cgi-bin/masssendpage-t=mass/send"
 },{
 id:"jurisdiction",
 name:"授权申请",
@@ -42,12 +42,12 @@ url:"/cgi-bin/copyrightlib?action=reprint_article&begin=0&count=10&auth_status=0
 },{
 id:"list",
 name:"已发送",
-url:"/cgi-bin/masssendpage?t=mass/list&action=history&begin=0&count=10"
+url:"/cgi-bin/masssendpage-t=mass/list&action=history&begin=0&count=10"
 }],
 message:[{
 id:"total",
 name:"全部消息",
-url:"/cgi-bin/message?t=message/list&count=20&day=7"
+url:"/cgi-bin/message-t=message/list&count=20&day=7"
 },{
 id:"star",
 name:"已收藏的消息",

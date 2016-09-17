@@ -45,7 +45,7 @@ key:"",
 isDesc:!1,
 article:t,
 data:$.extend(!0,[],t.summaryList),
-downloadLink:wx.url("/misc/appmsganalysis?action=all&begin_date=%s&end_date=%s&download=1&msgid=%s".sprintf(t.publish_date,t.publish_date,t.msgid))
+downloadLink:wx.url("/misc/appmsganalysis-action=all&begin_date=%s&end_date=%s&download=1&msgid=%s".sprintf(t.publish_date,t.publish_date,t.msgid))
 });
 },a;
 });

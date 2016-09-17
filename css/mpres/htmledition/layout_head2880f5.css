@@ -158,7 +158,7 @@
     position: absolute;
     left: -9px;
     top: 0;
-    background: transparent url(/mpres/htmledition/images/icon/widget/account/icon_notice_dot_left2880f5.png) no-repeat 0 0;
+    background: transparent url(images/icon_notice_dot_left2880f5.png) no-repeat 0 0;
     width: 9px;
     height: 16px;
     vertical-align: middle;
@@ -169,7 +169,7 @@
     position: absolute;
     right: -9px;
     top: 0;
-    background: transparent url(/mpres/htmledition/images/icon/widget/account/icon_notice_dot_right2880f5.png) no-repeat 0 0;
+    background: transparent url(images/icon_notice_dot_right2880f5.png) no-repeat 0 0;
     width: 9px;
     height: 16px;
     vertical-align: middle;

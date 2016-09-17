@@ -150,7 +150,7 @@ function A(){
 J.filters.pageNum=1;
 }
 function x(t,e){
-var t="/misc/appmsganalysis?action=all",a=J.filters,e={
+var t="/misc/appmsganalysis-action=all",a=J.filters,e={
 begin_date:a.beginDate,
 end_date:a.endDate,
 order_by:a.sortKey,

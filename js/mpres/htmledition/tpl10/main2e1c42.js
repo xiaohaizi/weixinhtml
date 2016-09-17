@@ -177,7 +177,7 @@ data:ot[nt.source]
 },nt),U.showDetailTable({
 data:it[tt]
 },nt),U.initDownload({
-baseCgi:"/misc/appmsganalysis?action=report&"
+baseCgi:"/misc/appmsganalysis-action=report&"
 },nt),E.pager(),$("#js_share_table").show();
 }
 function D(){
@@ -188,7 +188,7 @@ compareChartData:rt[nt.source]
 tableData:it[tt],
 compareTableData:ct[tt]
 },nt),U.initDownload({
-baseCgi:"/misc/appmsganalysis?action=report&"
+baseCgi:"/misc/appmsganalysis-action=report&"
 },nt),$("#js_share_table").hide();
 }
 function w(){
@@ -197,7 +197,7 @@ _t=!0,U.showLoading();
 var e="";
 if(nt.isTableDateChange)var a=nt.tableBeginDate,s=nt.tableEndDate;else var a=nt.begin_date,s=nt.end_date;
 e="&begin_date=%s&end_date=%s".sprintf(a,s),O("load mssage data"),F.get({
-url:"/misc/appmsganalysis?action=report&type=%s%s".sprintf(nt.type,e),
+url:"/misc/appmsganalysis-action=report&type=%s%s".sprintf(nt.type,e),
 success:function(e){
 var a=Y("load mssage data");
 I(z,a,K),0==e.base_resp.ret?(t(e.item),dt=e.share_item,j(),nt.isTableDateChange||v(),
@@ -218,14 +218,14 @@ _t=!0,U.showLoading();
 var a="",s=-1,i=0;
 a="&begin_date=%s&end_date=%s".sprintf(nt.begin_date,nt.end_date),O("load mssage data compare 1"),
 F.get({
-url:"/misc/appmsganalysis?action=report&type=%s%s".sprintf(nt.type,a),
+url:"/misc/appmsganalysis-action=report&type=%s%s".sprintf(nt.type,a),
 success:function(a){
 var s=Y("load mssage data compare 1");
 I(z,s,K),0==a.base_resp.ret?(t(a.item),dt=a.share_item):(F.show(a),i++),e();
 }
 }),a="&begin_date=%s&end_date=%s".sprintf(nt.compare_begin_date,nt.compare_end_date),
 O("load mssage data compare 2"),F.get({
-url:"/misc/appmsganalysis?action=report&type=%s%s".sprintf(nt.type,a),
+url:"/misc/appmsganalysis-action=report&type=%s%s".sprintf(nt.type,a),
 success:function(t){
 var a=Y("load mssage data compare 2");
 I(z,a,K),U.hideLoading(),0==t.base_resp.ret?(n(t.item),D()):(F.show(t),i++),e();
